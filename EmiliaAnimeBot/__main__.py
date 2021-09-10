@@ -21,7 +21,7 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-EMILIA_IMG = "https://telegra.ph/file/b37cec509d121c8c63518.jpg"
+EMILIA_IMG = "https://telegra.ph/file/bb70df2b2f1da6bc8f10a.jpg"
 
 
 def get_readable_time(seconds: int) -> str:
@@ -54,8 +54,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hey There!` [👩‍💼](https://telegra.ph/file/c766d686089a43e0ff33a.jpg) 
-`My name is` *Emilia*`
+`Hey There!` [✌](https://telegra.ph/file/a543c0b0418f978f4d217.jpg) 
+`My name is` *Lelouch*`
 `I am an Anime Themed group management bot.`
 You can find my list of available commands with` *🔐Commands*   
 """
@@ -63,7 +63,7 @@ You can find my list of available commands with` *🔐Commands*
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD EMILIA TO YOUR GROUP ➕️",url="t.me/EmiliaAnimeRoBot?startgroup=true"
+            text="➕️ ADD LELOUCH TO YOUR GROUP ➕️",url="t.me/LelouchXRobot?startgroup=true"
         ),
     ],
     [
@@ -73,17 +73,17 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-          text="📮 Updates", url="https://t.me/TangentXOfficial"
+          text="🐱 Support", url="https://t.me/lelouchsupportchat"
         ),
       
         InlineKeyboardButton(
-          text="📑 Logs", url="https://t.me/tangentlogger"
+          text="📑 Logs", url="https://t.me/lelouchlogsgroup"
         ),
     ],
          
     [
        InlineKeyboardButton(
-           text="🐱 Support", url="https://t.me/TangentChats"
+           text="🔧Updates Channel", url="https://t.me/lelouchupdates"
          ),
     ],
     [
@@ -96,8 +96,8 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [Emilia!](https://telegra.ph/file/e5fc94ada18369f89c832.jpg) 
-I'm a Half Elf and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
+`Hey there! My name is` [Lelouch](https://telegra.ph/file/14ed4273e02e13099e12b.jpg) 
+I'm an Ultra Bot and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """
 Heya, glad to hear you want to donate!
@@ -213,14 +213,14 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            EMILIA_IMG, caption= "<code>Emilia is Here For You❤\nI am Awake Since</code>: <code>{}</code>".format(
+            EMILIA_IMG, caption= "<code>Lelouch is On Duty! \nI am Awake Since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://telegram.dog/TangentChats")
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://telegram.dog/lelouchsupportchat")
                   ],
                   [
                   InlineKeyboardButton(text="Sᴏᴜʀᴄᴇ", url="https://github.com/IzumiCypherX/EmiliaAnimeBot")
@@ -390,7 +390,9 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..👩‍💼 I'm *Emilia*
+            text=""" Hi..👩‍💼 I'm *Lelouch*
+            I am Running on Base code of @EmiliaAnimeRobot
+                   
                  \nMy Source Code Can be Found at Github at this [Link](https://github.com/IzumiCypherX/EmiliaAnimeBot""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -691,7 +693,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Emilia is Back Online💼")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Lelouch is Back Online💼")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
