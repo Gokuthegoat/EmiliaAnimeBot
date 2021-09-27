@@ -56,8 +56,9 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 `Hey There!` [✌](https://telegra.ph/file/a543c0b0418f978f4d217.jpg) 
 `My name is` *Lelouch*`
-`I am an Anime Themed group management bot.`
-You can find my list of available commands with` *🔐Commands*   
+`I am an Anime Themed group management bot.This Bot Is Developed In 🇮🇳.`
+My Developer [Iloveanime123r](https://t.me/Iloveanime123r).
+You can find my list of available commands in` *🔐Commands*  
 """
 
 buttons = [
@@ -73,22 +74,22 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-          text="🐱 Support", url="https://t.me/lelouchsupportchat"
+          text="🤖Support🤖", url="https://t.me/lelouchsupportchat"
         ),
       
         InlineKeyboardButton(
-          text="📑 Logs", url="https://t.me/lelouchlogsgroup"
+          text="📑Logs🗒", url="https://t.me/lelouchlogs"
         ),
     ],
          
     [
        InlineKeyboardButton(
-           text="🔧Updates Channel", url="https://t.me/lelouchupdates"
+           text="👨‍🔧Updates Channel👨‍🔧", url="https://t.me/lelouchlogschannel"
          ),
     ],
     [
         InlineKeyboardButton(
-          text="✒ Source", callback_data="source_"
+          text="🙂Source🙂", callback_data="source_"
         ),
      
     ],
@@ -97,12 +98,12 @@ buttons = [
 
 HELP_STRINGS = """
 `Hey there! My name is` [Lelouch](https://telegra.ph/file/14ed4273e02e13099e12b.jpg) 
-I'm an Ultra Bot and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
+I'm an Ultra Bot and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.` MY DVELOPER @Iloveanime123r"""
 
 DONATE_STRING = """
 Heya, glad to hear you want to donate!
 I'd Like you to Donate that Money to Some Charity. 
-Thanks!
+Thanks! PM @doreamonfans1
 """
 
 IMPORTED = {}
@@ -223,7 +224,7 @@ def start(update: Update, context: CallbackContext):
                   InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://telegram.dog/lelouchsupportchat")
                   ],
                   [
-                  InlineKeyboardButton(text="Sᴏᴜʀᴄᴇ", url="https://github.com/IzumiCypherX/EmiliaAnimeBot")
+                  InlineKeyboardButton(text="Sᴏᴜʀᴄᴇ", url="https://github.com/disneyteam77/EmiliaAnimeBot")
                   ]
                 ]
             ),
@@ -467,7 +468,7 @@ def get_help(update: Update, context: CallbackContext):
             InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="Back", callback_data="help_back"),
                                 InlineKeyboardButton(
-                                    text="Support", url="https://telegram.dog/TangentChats"
+                                    text="Support", url="https://telegram.dog/lelouchsupportchat"
                                 )]]
             ),
         )
