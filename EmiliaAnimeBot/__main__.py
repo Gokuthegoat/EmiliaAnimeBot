@@ -57,7 +57,7 @@ PM_START_TEXT = """
 `Hey There!` [✌](https://telegra.ph/file/a543c0b0418f978f4d217.jpg) 
 `My name is` *Lelouch*`
 `I am an Anime Themed group management bot.This Bot Is Developed In 🇮🇳.`
-My Developer @Iloveanime123r.
+*My Developer @Iloveanime123r , @doreamonfans1*
 You can find my list of available commands in` *🔐Commands*  
 """
 
@@ -224,7 +224,7 @@ def start(update: Update, context: CallbackContext):
                   InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://telegram.dog/lelouchsupportchat")
                   ],
                   [
-                  InlineKeyboardButton(text="Sᴏᴜʀᴄᴇ", url="https://github.com/disneyteam77/EmiliaAnimeBot")
+                  InlineKeyboardButton(text="Sᴏᴜʀᴄᴇ", url="https://github.com/gokuthegoat/EmiliaAnimeBot")
                   ]
                 ]
             ),
@@ -392,9 +392,9 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..👩‍💼 I'm *Lelouch*
-            I am Running on Base code of @EmiliaAnimeRobot
+            I am powerful group manager bot if you find me helpful please donate us
                    
-                 \nMy Source Code Can be Found at Github at this [Link](https://github.com/IzumiCypherX/EmiliaAnimeBot""",
+                 \nMy Source Code Can be Found at Github at this [Link](https://github.com/gokuthegoat/EmiliaAnimeBot""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -661,7 +661,7 @@ def donate(update: Update, context: CallbackContext):
             )
 
             update.effective_message.reply_text(
-                "I've PM'ed you about donating to my creator!"
+                "I've PM'ed you about donating to my creator @doreamonfans1 !"
             )
         except Unauthorized:
             update.effective_message.reply_text(
@@ -694,7 +694,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Lelouch is Back Online💼")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Lelouch is restarted")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
