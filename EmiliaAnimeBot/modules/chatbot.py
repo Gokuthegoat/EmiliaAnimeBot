@@ -22,8 +22,6 @@ from EmiliaAnimeBot.modules.helper_funcs.chat_status import user_admin
 from EmiliaAnimeBot.modules.helper_funcs.filters import CustomFilters
 from EmiliaAnimeBot.modules.log_channel import gloggable
 
-CoffeeHouseAPI = API(AI_API_KEY)
-api_client = LydiaAI(CoffeeHouseAPI)
 
 
 @run_async
