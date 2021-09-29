@@ -148,7 +148,7 @@ Chatbot utilizes the CoffeeHouse API and allows Suneo to talk and provides a mor
  ✪ `/addchat`*:* Enables Chatbot mode in the chat.
  ✪ `/rmchat`*:* Disables Chatbot mode in the chat.
 
-Reports bugs at @{SUPPORT_CHAT}
+Reports bugs at @disneyteamchat
 [Powered by CoffeeHouse](https://coffeehouse.intellivoid.net) from @Intellivoid
 """
 
