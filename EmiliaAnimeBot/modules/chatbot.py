@@ -17,11 +17,11 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import LEGEND.modules.sql.chatbot_sql as sql
-from LEGEND import AI_API_KEY, SUPPORT_CHAT, dispatcher
-from LEGEND.modules.helper_funcs.chat_status import user_admin
-from LEGEND.modules.helper_funcs.filters import CustomFilters
-from LEGEND.modules.log_channel import gloggable
+import EmiliaAnimeBot.modules.sql.chatbot_sql as sql
+from EmiliaAnimeBot import AI_API_KEY, SUPPORT_CHAT, dispatcher
+from EmiliaAnimeBot.modules.helper_funcs.chat_status import user_admin
+from EmiliaAnimeBot.modules.helper_funcs.filters import CustomFilters
+from EmiliaAnimeBot.modules.log_channel import gloggable
 
 CoffeeHouseAPI = API(AI_API_KEY)
 api_client = LydiaAI(CoffeeHouseAPI)
