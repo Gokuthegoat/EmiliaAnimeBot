@@ -164,9 +164,9 @@ LIST_CB_CHATS_HANDLER = CommandHandler(
 )
 # Filters for ignoring #note messages, !commands and sed.
 
-dispatch.add_handler(REMOVE_CHAT_HANDLER)
-dispatch.add_handler(CHATBOT_HANDLER)
-dispatch.add_handler(LIST_CB_CHATS_HANDLER)
+Add_handler(REMOVE_CHAT_HANDLER)
+Add_handler(CHATBOT_HANDLER)
+Add_handler(LIST_CB_CHATS_HANDLER)
 
 __mod_name__ = "Chatbot 🙋‍♀️"
 __command_list__ = ["addchat", "rmchat", "listaichats"]
