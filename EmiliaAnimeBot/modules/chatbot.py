@@ -18,7 +18,6 @@ from telegram.ext import (
 from telegram.utils.helpers import mention_html
 
 import EmiliaAnimeBot.modules.sql.chatbot_sql as sql
-from EmiliaAnimeBot import AI_API_KEY, SUPPORT_CHAT, dispatcher
 from EmiliaAnimeBot.modules.helper_funcs.chat_status import user_admin
 from EmiliaAnimeBot.modules.helper_funcs.filters import CustomFilters
 from EmiliaAnimeBot.modules.log_channel import gloggable
