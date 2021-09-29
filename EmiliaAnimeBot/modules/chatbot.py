@@ -164,7 +164,6 @@ LIST_CB_CHATS_HANDLER = CommandHandler(
 )
 # Filters for ignoring #note messages, !commands and sed.
 
-dispatcher.add_handler(ADD_CHAT_HANDLER)
 dispatcher.add_handler(REMOVE_CHAT_HANDLER)
 dispatcher.add_handler(CHATBOT_HANDLER)
 dispatcher.add_handler(LIST_CB_CHATS_HANDLER)
