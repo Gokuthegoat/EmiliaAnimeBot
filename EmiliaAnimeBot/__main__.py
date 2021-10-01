@@ -57,7 +57,7 @@ PM_START_TEXT = """
 `Hey There!` [✌](https://telegra.ph/file/a543c0b0418f978f4d217.jpg) 
 `My name is` *Lelouch*`
 `I am an Anime Themed group management bot.This Bot Is Developed In 🇮🇳.`
-*My Developer @Iloveanime123r , @doreamonfans1*
+`My Developer` *@Iloveanime123r , @doreamonfans1*`
 You can find my list of available commands in` *🔐Commands*  
 """
 
