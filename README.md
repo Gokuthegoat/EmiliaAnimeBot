@@ -36,7 +36,7 @@ Thanks To:
 
 
 
-The Support group can be reached out to at [Tangent](https://t.me/TangentChats), where you can ask for help about [Emilia](https://t.me/LelouchXRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Mhaprvt](https://t.me/mhaprvt), where you can ask for help about [lelouch](https://t.me/LelouchXRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 <details>
 	<summary>Heroku Deploy</summary>
