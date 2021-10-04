@@ -21,7 +21,7 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-EMILIA_IMG = "https://telegra.ph/file/bb70df2b2f1da6bc8f10a.jpg"
+LELOUCH_IMG = "https://telegra.ph/file/bb70df2b2f1da6bc8f10a.jpg"
 
 
 def get_readable_time(seconds: int) -> str:
@@ -214,7 +214,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            EMILIA_IMG, caption= "<code>Lelouch is On Duty! \nI am Awake Since</code>: <code>{}</code>".format(
+            LELOUCH_IMG, caption= "<code>Lelouch is On Duty! \nI am Awake Since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
