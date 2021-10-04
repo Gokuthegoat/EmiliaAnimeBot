@@ -1,4 +1,4 @@
-![Emilia](https://telegra.ph/file/3a2d5f40a0f3932c527a5.jpg)
+![Emilia](https://te.legra.ph/file/f1778fe1a73c9343e79d5.jpg)
 # Emilia
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/IzumiCypherX/EmiliaAnimeBot/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html)<br> [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)<br> [![Updates channel!](https://img.shields.io/badge/Join%20Channel-↗-red)](https://t.me/TangentXOfficial) 
 [![Support Group!](https://img.shields.io/badge/Join%20Group-↗-green)](https://t.me/TangentXOfficial)
@@ -7,7 +7,7 @@
 > If There's no Trace of This Repo in your Bot, We will be pushing a gban on you from our systems.
 
 
-### Can be found on telegram as [Emilia](https://t.me/EmiliaAnimeRoBot).
+### Can be found on telegram as [Lelouch](https://t.me/LelouchXRobot).
 
 ### Status
 
@@ -36,7 +36,7 @@ Thanks To:
 
 
 
-The Support group can be reached out to at [Tangent](https://t.me/TangentChats), where you can ask for help about [Emilia](https://t.me/EmiliaAnimeRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Tangent](https://t.me/TangentChats), where you can ask for help about [Emilia](https://t.me/LelouchXRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 <details>
 	<summary>Heroku Deploy</summary>
