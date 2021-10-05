@@ -8,7 +8,7 @@ from telegram.ext import (run_async,
                           Filters, CommandHandler,
                           CallbackQueryHandler)
 
-from EmiliaAnimeBot import dispatcher, REDIS
+from EmiliaAnimeBot import dispatcher
 from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
 from EmiliaAnimeBot.modules.helper_funcs.chat_status import (
     bot_admin,
