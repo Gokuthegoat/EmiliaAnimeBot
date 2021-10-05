@@ -1,6 +1,6 @@
 #This Module (Tagall) Is Taken From @zoldycktmbot
 
-from EmiliaAnimeBot import ParseMode
+from EmiliaAnimeBot import dispatcher
 from telegram.error import BadRequest
 from telegram.utils.helpers import mention_html
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton
