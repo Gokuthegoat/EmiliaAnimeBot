@@ -107,7 +107,7 @@ I'm an Ultra Bot and help admins manage their groups with Some Powerful Features
 DONATE_STRING = """
 Heya, glad to hear you want to donate!
 I'd Like you to Donate that Money to Some Charity. 
-Thanks! [Gpay]{upi://pay?pa=gpay-11166359555@okbizaxis&mc=5399&pn=Google%20Pay%20Merchant&oobe=fos123&tr=1166359555&cu=INR} If You Dont Have Google pay You Can Dm my Developer @doreamonfans1 He will Accept all currency 100%
+Thanks!  [Gpay]{upi://pay?pa=gpay-11166359555@okbizaxis&mc=5399&pn=Google%20Pay%20Merchant&oobe=fos123&tr=1166359555&cu=INR}       If You Dont Have Google pay You Can Dm my Developer @doreamonfans1 He will Accept all currency 100%
 """
 
 IMPORTED = {}
