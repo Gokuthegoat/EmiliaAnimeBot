@@ -271,19 +271,19 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe Ranking of The Person is Owner of Emilia"
+        text += "\n\nThe Ranking of The Person is Owner of Lelouch"
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis Person is a Developer of Emilia"
+        text += "\n\nThis Person is a Developer of Lelouch"
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThis Person is a Sudo-User of Emilia"
+        text += "\n\nThis Person is a Sudo-User of Lelouch"
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThis Person is a Support User of Emilia"
+        text += "\n\nThis Person is a Support User of Lelouch"
         disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\nThis User is Immune to all Restrictions over Emilia"
+        text += "\n\nThis User is Immune to all Restrictions over Lelouch"
         disaster_level_present = True
     elif user.id in WOLVES:
         text += "\n\nThis User is Immune to Automated Restrictions"
