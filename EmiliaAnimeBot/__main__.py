@@ -57,7 +57,6 @@ PM_START_TEXT = """
 `Hey There!` [✌](https://telegra.ph/file/a543c0b0418f978f4d217.jpg) 
 `My name is` *Lelouch*`
 `I am an Anime Themed group management bot.This Bot Is Developed In 🇮🇳.`
-*My Developer @Iloveanime123r , @doreamonfans1*
 You can find my list of available commands in` *🔐Commands*  
 """
 
@@ -89,7 +88,12 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-          text="🙂Source🙂", callback_data="source_"
+          text="👨‍💻Developer👨‍💻", url="https://t.me/doreamonfans1"
+        ),
+    ],
+    [
+       InlineKeyboardButton(
+         text="💁‍♂️Owner💁‍♂️", url="https://t.me/TheDivineGod"
         ),
      
     ],
@@ -103,7 +107,7 @@ I'm an Ultra Bot and help admins manage their groups with Some Powerful Features
 DONATE_STRING = """
 Heya, glad to hear you want to donate!
 I'd Like you to Donate that Money to Some Charity. 
-Thanks! PM @doreamonfans1
+Thanks! [Gpay]{upi://pay?pa=gpay-11166359555@okbizaxis&mc=5399&pn=Google%20Pay%20Merchant&oobe=fos123&tr=1166359555&cu=INR} If You Dont Have Google pay You Can Dm my Developer @doreamonfans1 He will Accept all currency 100%
 """
 
 IMPORTED = {}
@@ -221,10 +225,10 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://telegram.dog/lelouchsupportchat")
+                  InlineKeyboardButton(text="🤖Sᴜᴘᴘᴏʀᴛ🤖", url="https://telegram.dog/lelouchsupportchat")
                   ],
                   [
-                  InlineKeyboardButton(text="Sᴏᴜʀᴄᴇ", url="https://github.com/gokuthegoat/EmiliaAnimeBot")
+                  InlineKeyboardButton(text="👨‍💻Developer👨‍💻", url="https://t.me/doreamonfans1")
                   ]
                 ]
             ),
@@ -358,14 +362,14 @@ def gabi_about_callback(update, context):
     query = update.callback_query
     if query.data == "gabi_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Emilia*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Lelouch*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\nIf you have any question about *Emilia*, let us know at .""",
+                 \n\nIf you have any question about * Leouch*, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -694,7 +698,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Lelouch is restarted")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Lelouch is Online😉")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
