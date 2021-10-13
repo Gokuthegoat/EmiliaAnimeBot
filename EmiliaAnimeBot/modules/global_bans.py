@@ -139,7 +139,7 @@ def gban(update: Update, context: CallbackContext):
 
         return
 
-    message.reply_text("Ok Give Me 1minute.")
+    message.reply_text("Does A Half Ass Like Yourself Ever Experienced Fear 🤔")
 
     start_time = time.time()
     datetime_fmt = "%Y-%m-%dT%H:%M"
